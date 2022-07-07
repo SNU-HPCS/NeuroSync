@@ -1,6 +1,6 @@
 # NeuroSync
 
-This repositor is the software-based simulator for the paper entitled 
+This repository is the software-based simulator for the paper entitled 
 'NeuroSync: A Scalable and Accurate Brain Simulator Using Safe and Efficient Speculation'
 published at HPCA 2022.
 
