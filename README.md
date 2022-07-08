@@ -7,7 +7,7 @@ published at HPCA 2022.
 Unlike the existing multicore brain simulator, NeuroSync is the first simulator to
 _speculatively advance the simulation with only periodic synchronization among the cores._
 It also supports checkpoint, rollback, and recovery procedures to ensure that the
-_simulation results are exactly the same as in conventional simulator._
+_simulation results are exactly the same as in a conventional simulator._
 
 ## Installation
 ##### [dependency]
@@ -19,7 +19,7 @@ _simulation results are exactly the same as in conventional simulator._
 
 ## Workload
 You should manually define your network before the simulation.
-Please refer to the README file in the benchmark folder for detail
+Please refer to the README file in the benchmark folder for detail.
 
 ## Simulate
 ##### [run]
@@ -106,15 +106,17 @@ You may modify the timing parameters to explore various design spaces.
 Check the generated log file in the runspace to check the simulation results.
 Also, the err file reports the error during the simulation.
 
-# Publication
+## Publications
 
-## Original Publication
+### Original Publication
+
+You can refer to the following publication for detailed descriptions of NeuroSync architecture.
 
 ["NeuroSync: A Scalable and Accurate Brain Simulator Using Safe and Efficient Speculation," in *(HPCA22).*](https://ieeexplore.ieee.org/document/9773227)
 
-## Related Publications
+### Related Publications
 
-You can also refer to the following related publications 
+You can also refer to the following related publications. 
 
 ["Flexon: A Flexible Digital Neuron for Efficient Spiking Neural Network Simulations," in *(ISCA18).*](https://ieeexplore.ieee.org/document/8416834)
 
