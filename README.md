@@ -1,6 +1,6 @@
 # NeuroSync
 
-This repositor is the software-based simulator for the paper entitled 
+This repository is the software-based simulator for the paper entitled 
 'NeuroSync: A Scalable and Accurate Brain Simulator Using Safe and Efficient Speculation'
 published at HPCA 2022.
 
@@ -81,10 +81,10 @@ setup_timestep = 50
 ufactor = 2
 
 [path]
-simulator_path = [path_to_simulator]/neurosync/
-mapper_path = [path_to_simulator]/neuronsync/simulation/metis_interface/
-workload_path = [path_to_simulator]/neurosync/simulation/benchmark/
-runspace_path = [path_to_simulator]/neurosync/simulation/runspace/
+simulator_path = [path_to_simulator]/
+mapper_path = [path_to_simulator]/mapping/
+workload_path = [path_to_simulator]/benchmark/
+runspace_path = [path_to_simulator]/runspace/
 ```
 *"python3 run.py example.cfg"* will genearate below directories in *[runspace_path]*
 (and automatically run them in parallel)
