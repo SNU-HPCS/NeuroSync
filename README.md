@@ -106,6 +106,10 @@ You may modify the timing parameters to explore various design spaces.
 Check the generated log file in the runspace to check the simulation results.
 Also, the err file reports the error during the simulation.
 
+## TBD
+
+The support for the hierarchical routing for the chip-to-chip communication will also be released soon to alleviate the chip to chip bandwidth.
+
 ## Publications
 
 ### Original Publication
